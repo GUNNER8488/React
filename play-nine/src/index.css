@@ -1,0 +1,31 @@
+.star {
+    margin : 0.5em;
+    font-size: 24px;
+    background-color: transparent;
+}
+
+span {
+    display: inline-block;
+    margin: 0.5em;
+    text-align: center;
+    background-color: #ccc;
+    width: 24px;
+    border-radius: 50%;
+    cursor: pointer ;
+}
+
+.selected {
+    background-color: #eee !important;
+    color: #ddd;
+    cursor: not-allowed !important;
+}
+
+.used {
+    background-color: lightgreen !important;
+    color: gray;
+    cursor: not-allowed !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
